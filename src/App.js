@@ -1,5 +1,6 @@
 import './App.css';
 import Timer from "./Timer";
+import TaskList from "./TaskList";
 import Settings from "./Settings";
 import {useState} from "react";
 import SettingsContext from "./SettingsContext";
@@ -20,7 +21,7 @@ function App() {
         setWorkMinutes,
         setBreakMinutes,
       }}>
-        {showSettings ? <Settings /> : <Timer />}
+        {showSettings ? <Settings /> : <div><Timer /><TaskList /></div>}
       </SettingsContext.Provider>
     </main>
   );
