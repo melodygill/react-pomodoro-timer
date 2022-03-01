@@ -43,3 +43,7 @@ label{
   margin-top: 20px;
   text-transform: capitalize;
 }
+
+.strike {
+  text-decoration: line-through;
+}

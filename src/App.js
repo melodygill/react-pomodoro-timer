@@ -21,7 +21,8 @@ function App() {
         setWorkMinutes,
         setBreakMinutes,
       }}>
-        {showSettings ? <Settings /> : <div><Timer /><TaskList /></div>}
+        {showSettings ? <Settings /> : <Timer />}
+        <TaskList />
       </SettingsContext.Provider>
     </main>
   );

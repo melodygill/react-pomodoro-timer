@@ -2,6 +2,7 @@ import data from "./data.json";
 import React, {useState} from 'react';
 import ToDoList from "./ToDoList";
 import ToDoForm from "./ToDoForm";
+import './form.css'
 
 //https://www.educative.io/blog/react-hooks-tutorial-todo-list
 
